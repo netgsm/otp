@@ -27,7 +27,7 @@ PHP 7.2.5 ve üzeri
 
 ### Kurulum
 
-composer require netgsm/otp 
+<b>composer require netgsm/otp </b>
 
 .env  dosyası içerisinde NETGSM ABONELİK bilgileriniz tanımlanması zorunludur.  
 
@@ -37,11 +37,11 @@ composer require netgsm/otp
 
 
 
-```
+```     
         use Netgsm\Otp\otp;
-    	$data['message']='test mesajı';
-        $data['no']='xxxxxxxxxx';
-        //$data['header']='xxxxxxxx';
+        $data['message']='test mesajı';
+        $data['no']='553xxxxxxx';
+        //$data['header']='xxxxxxxx';//isteğe bağlı olarak farklı header bilginizi girebilirsiniz. Default olarak .env dosyası içerisinde belirtmiş olduğunuz header baz alınır.
         $islem=new otp;
         $sonuc=$islem->otp($data);
         echo '<pre>';
@@ -49,4 +49,24 @@ composer require netgsm/otp
         echo '<pre>';
 ```
 
+#### Başarılı istek örnek sonuç
 
+```
+Array
+(
+    [durum] => Gönderim başarılı.
+    [jobid] => 1310546758
+)
+
+```
+
+#### Başarısız istek örnek sonuç
+
+```
+Array
+(
+    [durum] => Gönderici adınızı kontrol ediniz.
+    [code] => 41
+)
+
+```
