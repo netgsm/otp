@@ -1,0 +1,21 @@
+{
+    "name": "netgsm/otp",
+    "description": "NETGSM OTP",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Netgsm\\Otp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Netgsm OTP",
+            "email": "teknikdestek@netgsm.com.tr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.5"
+    }
+}
