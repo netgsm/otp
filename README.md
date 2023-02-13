@@ -49,9 +49,8 @@ PHP 7.2.5 ve üzeri
         içerisinde belirtmiş olduğunuz header baz alınır.
         $islem=new otp;
         $sonuc=$islem->otp($data);
-        echo '<pre>';
-                print_r($sonuc);
-        echo '<pre>';
+        dd($sonuc);
+        die;
 ```
 
 #### Başarılı istek örnek sonuç
