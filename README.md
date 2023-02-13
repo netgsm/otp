@@ -21,6 +21,10 @@ https://www.netgsm.com.tr/dokuman/
 
 Laravel 6.x, Laravel 7.x, Laravel 8.x, Laravel 9.x, 
 
+### Supported Symfony Versions
+
+Symfony 4.x, Symfony 5.x, Symfony 6.x
+
 ### Supported Php Versions
 
 PHP 7.2.5 ve üzeri
