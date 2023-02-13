@@ -9,6 +9,34 @@ use SimpleXMLElement;
 class otp
 {   
    
+    private $username;
+    private $password;
+    private $header;
+    public function __construct()
+    {
+     if(isset($_ENV['NETGSM_USERCODE']))
+      {
+          $this->username=$_ENV['NETGSM_USERCODE'];
+      }
+      else{
+          $this->username='x';
+      }
+      if(isset($_ENV['NETGSM_PASSWORD']))
+      {
+          $this->password=$_ENV['NETGSM_PASSWORD'];
+      }
+      else{
+          $this->password='x';
+      }
+      if(isset($_ENV['NETGSM_HEADER']))
+      {
+          $this->header=$_ENV['NETGSM_HEADER'];
+      }
+      else{
+          $this->header='x';
+      }
+        
+    }
     
     public function otp($data):array
     {
@@ -23,7 +51,7 @@ class otp
             return $response;
         }
         if(!isset($data['header'])){
-            $header=env("NETGSM_HEADER");
+            $header=$this->header;
            
         }
         else{
@@ -37,8 +65,8 @@ class otp
         $xmlData='<?xml version="1.0"?>
         <mainbody>
            <header>
-               <usercode>'.env("NETGSM_USERCODE").'</usercode>
-               <password>'.env("NETGSM_PASSWORD").'</password>
+               <usercode>'.$this->username.'</usercode>
+               <password>'.$this->password.'</password>
                <msgheader>'.$header.'</msgheader>
            </header>
            <body>
