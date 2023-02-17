@@ -45,7 +45,7 @@ PHP 7.2.5 ve üzeri
 
 
 
-```     
+```php     
         use Netgsm\Otp\otp;
         $data['message']='test mesajı';
         $data['no']='553xxxxxxx';
@@ -59,7 +59,7 @@ PHP 7.2.5 ve üzeri
 
 #### Başarılı istek örnek sonuç
 
-```
+```php
 Array
 (
     [durum] => Gönderim başarılı.
@@ -70,7 +70,7 @@ Array
 
 #### Başarısız istek örnek sonuç
 
-```
+```php
 Array
 (
     [durum] => Gönderici adınızı kontrol ediniz.
