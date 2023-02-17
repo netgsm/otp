@@ -47,10 +47,8 @@ PHP 7.2.5 ve üzeri
 
 ```php     
         use Netgsm\Otp\otp;
-        $data['message']='test mesajı';
-        $data['no']='553xxxxxxx';
-        //$data['header']='xxxxxxxx';//isteğe bağlı olarak farklı header bilginizi girebilirsiniz. Default olarak .env dosyası  
-        içerisinde belirtmiş olduğunuz header baz alınır.
+         $data=array('message'=>'test mesajı5','no'=>'5531105200','header'=>'03129116589');
+        //header: isteğe bağlı olarak farklı header bilginizi girebilirsiniz. Default olarak .env dosyası  içerisinde belirtmiş olduğunuz header baz alınır.
         $islem=new otp;
         $sonuc=$islem->otp($data);
         dd($sonuc);
