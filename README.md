@@ -15,7 +15,7 @@ SMS'lerde zaman ayarı yapılamaz, 3 dakika içerisinde iletilir.
  Netgsm API Servisi ile alakalı tüm sorularınızı ve önerilerinizi teknikdestek@netgsm.com.tr adresine iletebilirsiniz.
 
 
-# Doküman 
+# Döküman 
 https://www.netgsm.com.tr/dokuman/
  API Servisi için hazırlanmış kapsamlı dokümana ve farklı yazılım dillerinde örnek amaçlı hazırlanmış örnek kodlamalara 
  [https://www.netgsm.com.tr/dokuman](https://www.netgsm.com.tr/dokuman) adresinden ulaşabilirsiniz.
