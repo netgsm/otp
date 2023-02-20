@@ -10,7 +10,6 @@ SMS'lerde zaman ayarı yapılamaz, 3 dakika içerisinde iletilir.
 - [Supported](#Supported-Laravel-Versions)
 - [Kurulum](#kurulum)
 - [Örnek](#örnek)
-- 
 # İletişim & Destek
 
  Netgsm API Servisi ile alakalı tüm sorularınızı ve önerilerinizi teknikdestek@netgsm.com.tr adresine iletebilirsiniz.
