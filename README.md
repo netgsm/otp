@@ -20,7 +20,7 @@ https://www.netgsm.com.tr/dokuman/
 - [İletişim & Destek](#destek)
 - [Supported](#Supported-Laravel-Versions)
 - [Kurulum](#kurulum)
-- [öRNEK](#örnek)
+- [Örnek](#örnek)
 
 ### Supported Laravel Versions
 
