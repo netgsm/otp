@@ -5,7 +5,12 @@
 
 Anlık SMS gönderimlerinde (şifre, onay kodu vs.) OTP Servisini kullanabilirsiniz.
 SMS'lerde zaman ayarı yapılamaz, 3 dakika içerisinde iletilir.
-
+## İçindekiler
+- [İletişim & Destek](#i̇letişim--destek)
+- [Supported](#Supported-Laravel-Versions)
+- [Kurulum](#kurulum)
+- [Örnek](#örnek)
+- 
 # İletişim & Destek
 
  Netgsm API Servisi ile alakalı tüm sorularınızı ve önerilerinizi teknikdestek@netgsm.com.tr adresine iletebilirsiniz.
@@ -16,11 +21,7 @@ https://www.netgsm.com.tr/dokuman/
  API Servisi için hazırlanmış kapsamlı dokümana ve farklı yazılım dillerinde örnek amaçlı hazırlanmış örnek kodlamalara 
  [https://www.netgsm.com.tr/dokuman](https://www.netgsm.com.tr/dokuman) adresinden ulaşabilirsiniz.
 
-## İçindekiler
-- [İletişim & Destek](#destek)
-- [Supported](#Supported-Laravel-Versions)
-- [Kurulum](#kurulum)
-- [Örnek](#örnek)
+
 
 ### Supported Laravel Versions
 
