@@ -71,7 +71,7 @@ class otp
            </header>
            <body>
                <msg>
-                   <![CDATA['.$data['message'].']]>
+                   '.$data['message'].'
                </msg>
                <no>'.$data['no'].'</no>
            </body>
