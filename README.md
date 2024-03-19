@@ -59,7 +59,7 @@ PHP 7.2.5 ve üzeri
         $islem=new otp;
         $sonuc=$islem->otp($data);
         dd($sonuc);
-        die;
+        
 ```
 
 #### Başarılı istek örnek sonuç
